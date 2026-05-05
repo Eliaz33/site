@@ -2,18 +2,17 @@
 let display = document.getElementById("display");
 
 function add(value) {
-    display.value += value;
+    display.value += value
 }
 
 function del() {
-    display.value = display.value.slice(0, -1);
+    display.value =""
 }
 
 function calculate() {
-    try {
-        display.value = eval(display.value);
-    } catch (e) {
-        display.value = "Error";
-    }
+
+     display.value = eval(display.value)
+    
+    
 }
 </script>

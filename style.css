@@ -1,6 +1,4 @@
-
-body 
-{
+body {
     background-color: #222;
     display: flex;
     justify-content: center;
@@ -8,15 +6,11 @@ body
     height: 100vh;
 }
 
-
-.calculator 
-{
+.calculator {
     
 }
 
-
-#display 
-{
+#display {
     width: 75%;
     height: 60px;
     background-color: #000;
@@ -28,16 +22,13 @@ body
     border-radius: 10px;
 }
 
-
-.buttons 
-{
+.buttons {
     display: grid;
     grid-template-columns: repeat(4, 60px);
     gap: 10px;
 }
 
-button 
-{
+button {
     height: 60px;
     font-size: 18px;
     border: none;
@@ -51,8 +42,6 @@ button:hover {
     background-color: #777;
 }
 
-
-.equal 
-{
+.equal {
     background-color: orange;
 }
